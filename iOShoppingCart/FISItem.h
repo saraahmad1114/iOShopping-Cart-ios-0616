@@ -3,6 +3,8 @@
 #import <Foundation/Foundation.h>
 
 @interface FISItem : NSObject
+//Custom class that we created and primitives can be stored
+//
 
 @property (strong, nonatomic) NSString *name;
 @property (nonatomic) NSUInteger priceInCents;
